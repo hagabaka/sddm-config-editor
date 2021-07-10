@@ -1,15 +1,18 @@
 #include "setting.h"
+#include "controller.h"
+
 #include <QVariant>
 #include <QString>
 #include <QJsonValue>
 
+
 Setting::Setting(QObject* parent) : QObject(parent)
 {
   if(parent) {
-    QObject* controller = parent->property("controller").value<QObject*>();
+    Controller* controller = parent->property("controller").value<Controller*>();
     if(controller) {
-      QObject::connect(this, SIGNAL(valueChanged()), controller, SLOT(generate()));
-      QObject::connect(this, SIGNAL(valueChanged()), controller, SIGNAL(modelChanged()));
+      connect(this, &Setting::valueChanged, controller, &Controller::generate);
+      connect(this, &Setting::valueChanged, controller, &Controller::modelChanged);
     }
   }
 }

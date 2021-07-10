@@ -91,7 +91,8 @@ QString Controller::absolutePath(const QString& path, const QString& filename)
 QObject* Controller::spawnProcess(const QString& line)
 {
   QProcess* process = new QProcess();
-  process->start(line);
+  QStringList arguments;
+  process->start(line, arguments);
   return process;
 }
 
