@@ -16,12 +16,12 @@
     <message>
         <location filename="config-strings.qml" line="9"/>
         <source>Name of session file for autologin session (if empty try last logged in)</source>
-        <translation type="unfinished"></translation>
+        <translation>Seanso failo, skirto automatinio prisijungimo seansui (jei tuščia, bandyti paskutinį, kuriuo pavyko prisijungti), pavadinimas</translation>
     </message>
     <message>
         <location filename="config-strings.qml" line="12"/>
         <source>Username for autologin session</source>
-        <translation type="unfinished"></translation>
+        <translation>Naudotojo vardas, skirtas automatinio prisijungimo seansui</translation>
     </message>
     <message>
         <location filename="config-strings.qml" line="15"/>
@@ -31,7 +31,7 @@
     <message>
         <location filename="config-strings.qml" line="18"/>
         <source>Enable Qt&apos;s automatic high-DPI scaling</source>
-        <translation type="unfinished"></translation>
+        <translation>Įjungti Qt automatinį didelės DPI reikšmės mastelio keitimą</translation>
     </message>
     <message>
         <location filename="config-strings.qml" line="21"/>
@@ -46,13 +46,15 @@
     <message>
         <location filename="config-strings.qml" line="27"/>
         <source>Initial NumLock state. Can be on, off or none.</source>
-        <translation type="unfinished"></translation>
+        <translation>Pradinė klaviatūros skaitmenų (NumLock) būsena. Gali būti įjungta (on), išjungta (off) arba jokia (none).</translation>
     </message>
     <message>
         <location filename="config-strings.qml" line="30"/>
         <source>If property is set to none, numlock won&apos;t be changed
 NOTE: Currently ignored if autologin is enabled.</source>
-        <translation type="unfinished"></translation>
+        <translation>Jei savybė nustatyta į jokią (none),
+klaviatūros skaitmenų būsena nebus keičiama
+PASTABA: Šiuo metu nepaisoma, jei įjungtas automatinis prisijungimas.</translation>
     </message>
     <message>
         <location filename="config-strings.qml" line="34"/>
@@ -72,7 +74,7 @@ NOTE: Currently ignored if autologin is enabled.</source>
     <message>
         <location filename="config-strings.qml" line="43"/>
         <source>Cursor theme used in the greeter</source>
-        <translation type="unfinished"></translation>
+        <translation>Žymeklio apipavidalinimas, naudojamas pasisveikinime</translation>
     </message>
     <message>
         <location filename="config-strings.qml" line="46"/>
@@ -83,17 +85,18 @@ NOTE: Currently ignored if autologin is enabled.</source>
         <location filename="config-strings.qml" line="49"/>
         <source>above which avatars are disabled
 unless explicitly enabled with EnableAvatars</source>
-        <translation type="unfinished"></translation>
+        <translation>virš kurių avatarai yra išjungti,
+nebent aiškiai įjungta naudojant EnableAvatars</translation>
     </message>
     <message>
         <location filename="config-strings.qml" line="53"/>
         <source>Enable display of custom user avatars</source>
-        <translation type="unfinished"></translation>
+        <translation>Įjungti tinkintų naudotojų avatarų rodymą</translation>
     </message>
     <message>
         <location filename="config-strings.qml" line="56"/>
         <source>Global directory for user avatars</source>
-        <translation type="unfinished"></translation>
+        <translation>Visuotinis naudotojų avatarų katalogas</translation>
     </message>
     <message>
         <location filename="config-strings.qml" line="59"/>
@@ -113,7 +116,7 @@ unless explicitly enabled with EnableAvatars</source>
     <message>
         <location filename="config-strings.qml" line="68"/>
         <source>Default $PATH for logged in users</source>
-        <translation type="unfinished"></translation>
+        <translation>Numatytasis $PATH prisijungusiems naudotojams</translation>
     </message>
     <message>
         <location filename="config-strings.qml" line="71"/>
@@ -123,32 +126,32 @@ unless explicitly enabled with EnableAvatars</source>
     <message>
         <location filename="config-strings.qml" line="74"/>
         <source>Users with these shells as their default won&apos;t be listed</source>
-        <translation type="unfinished"></translation>
+        <translation>Naudotojai, kuriems šie apvalkalai yra numatytieji, nebus išvardijami</translation>
     </message>
     <message>
         <location filename="config-strings.qml" line="77"/>
         <source>Comma-separated list of users that should not be listed</source>
-        <translation type="unfinished"></translation>
+        <translation>Kableliais atskirtų naudotojų, kurie neturėtų būti išvardyti, sąrašas</translation>
     </message>
     <message>
         <location filename="config-strings.qml" line="80"/>
         <source>Maximum user id for displayed users</source>
-        <translation type="unfinished"></translation>
+        <translation>Didžiausias naudotojo id rodomiems naudotojams</translation>
     </message>
     <message>
         <location filename="config-strings.qml" line="83"/>
         <source>Minimum user id for displayed users</source>
-        <translation type="unfinished"></translation>
+        <translation>Mažiausias naudotojo id rodomiems naudotojams</translation>
     </message>
     <message>
         <location filename="config-strings.qml" line="86"/>
         <source>Remember the session of the last successfully logged in user</source>
-        <translation type="unfinished"></translation>
+        <translation>Prisiminti paskutinio sėkmingai prisijungusio naudotojo seansą</translation>
     </message>
     <message>
         <location filename="config-strings.qml" line="89"/>
         <source>Remember the last successfully logged in user</source>
-        <translation type="unfinished"></translation>
+        <translation>Prisiminti paskutinį sėkmingai prisijungusį naudotoją</translation>
     </message>
     <message>
         <location filename="config-strings.qml" line="92"/>
@@ -180,22 +183,22 @@ unless explicitly enabled with EnableAvatars</source>
     <message>
         <location filename="config-strings.qml" line="107"/>
         <source>Path to a script to execute when starting the display server</source>
-        <translation type="unfinished"></translation>
+        <translation>Kelias į scenarijų, kurį vykdyti, kai paleidžiamas atvaizdavimo serveris</translation>
     </message>
     <message>
         <location filename="config-strings.qml" line="110"/>
         <source>Path to a script to execute when stopping the display server</source>
-        <translation type="unfinished"></translation>
+        <translation>Kelias į scenarijų, kurį vykdyti, kai stabdomas atvaizdavimo serveris</translation>
     </message>
     <message>
         <location filename="config-strings.qml" line="113"/>
         <source>The lowest virtual terminal number that will be used.</source>
-        <translation type="unfinished"></translation>
+        <translation>Mažiausias virtualaus terminalo numeris, kuris bus naudojamas.</translation>
     </message>
     <message>
         <location filename="config-strings.qml" line="116"/>
         <source>Arguments passed to the X server invocation</source>
-        <translation type="unfinished"></translation>
+        <translation>Argumentai, perduodami į X serverio iškvietą</translation>
     </message>
     <message>
         <location filename="config-strings.qml" line="119"/>
